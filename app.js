@@ -39,9 +39,11 @@ function showMovies(movies, url, page) {
 
      <div class="overview">
 
+     <a href="https://www.imdb.com/find/?q=${title}"><div class="overview">
+
      <h2>Overview:</h2>
      ${overview}
-     </div>
+     </div></a>
     `;
 
     main.appendChild(movieEl);
